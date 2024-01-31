@@ -17,6 +17,15 @@ import org.domains.solutions.utils.CollectionUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * The solution is optimal, because time complexity is: O(N + N * Log(M)),
+ * where N - total number of input emails, M - limit number of "top" domains.
+ * <p/>
+ * First N term - due to iteration over all the emails, collecting the domain counts,
+ * N * Log(M) - due to offer/poll operations of priority queue for each of the entry, created on previous step
+ * <p/>
+ * Space complexity is O(N) due to the creation of helper data structures, that would contain at most N elements
+ */
 @Slf4j
 public class DomainStatisticsService {
 

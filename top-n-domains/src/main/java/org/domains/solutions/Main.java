@@ -20,7 +20,6 @@ public class Main {
 		List<String> inputEmails = new ArrayList<>();
 		while (stdin.hasNextLine()) {
 			String email = stdin.nextLine();
-			System.out.println("Entered email: " + email);
 			inputEmails.add(email);
 		}
 
