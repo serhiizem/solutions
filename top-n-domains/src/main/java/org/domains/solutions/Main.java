@@ -11,7 +11,7 @@ import java.util.Scanner;
 @Slf4j
 public class Main {
 
-	public static final int DEFAULT_TOP_DOMAINS_LIMIT = 10;
+	private static final int DEFAULT_TOP_DOMAINS_LIMIT = 10;
 
 	public static void main(String[] args) {
 		var stdin = new Scanner(new BufferedInputStream(System.in));

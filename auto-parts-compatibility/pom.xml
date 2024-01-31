@@ -10,7 +10,7 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>top-n-domains</artifactId>
+	<artifactId>auto-parts-compatibility</artifactId>
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
