@@ -25,10 +25,10 @@
       
           | Column Name   | Column Type | PK |
           |---------------|-------------|----|
-          | serial_number | string      | PK |
-          | name          | string      |
-          | manufacturer  | string      |
-          | weight        | boolean     |
+          | serial_number | text        | PK |
+          | name          | text        |
+          | manufacturer  | text        |
+          | weight        | decimal     |
 
     - Table 2: **AUTO_PARTS_COMPATIBILITIES**
         - Description
@@ -37,8 +37,8 @@
 
          | Column Name     | Column Type | PK |
          |-----------------|-------------|----|
-         | serial_number   | string      | PK |
-         | compatible_with | string      |
+         | serial_number   | text        | PK |
+         | compatible_with | text        |
 
 ## High-level design
 
